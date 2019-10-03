@@ -7,12 +7,17 @@ def summon_captain_planet(p_calls)
 end
 
 def long_planeteer_calls(array_calls)
-  for (var i = 0; i < words.length; ++i) {
+  i=0 
+  while i < array_calls.length do
 
-    if (words[i].length > 4) {return true;}
-
-    else {return false;}
-  }
+    if (words[i].length > 4)
+      return true
+    end
+    
+    else 
+      return false
+    end
+  end
 end
 
 def find_the_cheese# code an argument here
