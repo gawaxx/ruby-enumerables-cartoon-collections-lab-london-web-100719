@@ -10,7 +10,7 @@ def long_planeteer_calls(array_calls)
   i=0 
   while i < array_calls.length do
 
-    if (words[i].length > 4)
+    if (array_calls[i].length > 4)
       return true
     end
   end
